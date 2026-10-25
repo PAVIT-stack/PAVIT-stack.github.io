@@ -1,0 +1,60 @@
+body {
+    background-color: lightcyan;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+}
+
+.product {
+    background-color: lightyellow;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #cccccc;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.description {
+    color: #666666;
+    font-size: 15px;
+}
+
+.price {
+    color: green;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.buy-btn {
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: green;
+}
